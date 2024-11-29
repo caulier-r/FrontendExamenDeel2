@@ -19,6 +19,11 @@
     border: none !important; /* Rode rand bij hover */
 }
 
+.knop-small {
+    padding: 5px 10px !important; /* Verkleint de ruimte binnen de knop /
+    font-size: 0.8rem; / Verkleint de tekstgrootte */
+}
+
 .knop:hover {
     color: black !important;
     background-color: green !important;
@@ -34,4 +39,25 @@
 }
 .color-btn.selected {
     border: 4px solid;
+}
+.product-card{
+    width: 396px !important;
+    height: 285px !important;
+    border: none !important;
+}
+
+.product-img{
+    width: 200px !important;
+    height: 200px !important;
+}
+.product-card-small{
+    width: 262px !important;
+    height: 103px !important;
+    border: 1px solid black !important;
+}
+
+.product-img-small{
+    width: 90px !important;
+    height: 101px !important;
+    border: 1px solid gray !important;
 }
