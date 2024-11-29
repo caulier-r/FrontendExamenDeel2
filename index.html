@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" >
+    <link rel="shortcut icon" href="img/logo-2.png" >
+    <title>EX ZO</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+    <!-- Top -->
+    <section id="top" class="bg-body-tertiary border">
+        <div class="container">
+            <div class="row align-items-center py-2 border-bottom">
+                <!-- Left Section: Contact Info -->
+                <div class="col-md-6 d-none d-md-flex justify-content-start">
+                    <div class="me-4 border rounded-5">
+                        <strong>Contact us:</strong>
+                        <a href="tel:+35235551238745" class="text-decoration-none">+3 (523) 555 123 8745</a>
+                    </div>
+                    <div class="me-4 border rounded-5">
+                        <strong>Email:</strong>
+                        <a href="mailto:office@exzo.com" class="text-decoration-none">office@exzo.com</a>
+                    </div>
+                </div>
+
+                <!-- Right Section: User Actions -->
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <!-- Login/Register -->
+                    <div class="me-4">
+                        <a href="#" class="text-decoration-none"><strong>Login</strong></a>
+                        or
+                        <a href="#" class="text-decoration-none"><strong>Register</strong></a>
+                    </div>
+
+                    <!-- Language Selector -->
+                    <div class="dropdown me-4">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            EN
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">FR</a></li>
+                            <li><a class="dropdown-item" href="#">RU</a></li>
+                            <li><a class="dropdown-item" href="#">IT</a></li>
+                            <li><a class="dropdown-item" href="#">SP</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Wishlist -->
+                    <a href="#" class="me-4 text-dark">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    </a>
+
+                    <!-- Cart -->
+                    <div class="position-relative">
+                        <a href="#" class="text-dark d-flex align-items-center text-decoration-none">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <span class="badge bg-success position-absolute top-0 start-100 translate-middle">5</span>
+                            <span class="ms-2">$1195.00</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md border-bottom bg-body-tertiary sticky-top" style="height: 98px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo-2.png" alt="logo-2" width="49" height="58">
+            </a>
+            <button class="navbar-toggler rounded-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-xs-9 col-sm-11 text-right " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown active-btn rounded-5">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            HOME
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active-btn rounded-5 knop" href="#">HOMEPAGE 1</a></li>
+                            <li><a class="dropdown-item rounded-5 knop" href="#">HOMEPAGE 2</a></li>
+                            <li><a class="dropdown-item rounded-5 knop" href="#">HOMEPAGE 3</a></li>
+                            <li><a class="dropdown-item rounded-5 knop" href="#">HOMEPAGE 4</a></li>
+                            <li><a class="dropdown-item rounded-5 knop" href="#">HOMEPAGE 5</a></li>
+                            <li><a class="dropdown-item rounded-5 knop" href="#">HOMEPAGE 6</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-btn rounded-5">
+                        <a class="nav-link rounded-5" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item nav-btn rounded-5">
+                        <a class="nav-link active" href="#">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item nav-btn rounded-5">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item nav-btn rounded-5">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item nav-btn rounded-5">
+                        <a class="nav-link" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item dropdown nav-btn rounded-5">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item rounded-5 knop" href="#">Action</a></li>
+                            <li><a class="dropdown-item rounded-5 knop" href="#">Another action</a></li>
+                            <li><a class="dropdown-item rounded-5 knop" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-btn rounded-5">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="d-none d-md-flex nav-item nav-btn">
+                        <a class="nav-link dropdown-toggle rounded-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-search"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success rounded-5" type="submit">
+                                        <i class="bi bi-search"></i>
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex d-md-none" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Header -->
+        <section class="container" style="width: 1170px;">
+
+            <div id="bladWijzer" class="text-center pt-4">
+                <button type="button" class="btn">HOME</button>
+                <i class="bi bi-chevron-right"></i>
+                <button type="button" class="btn">ACCESSORIES</button>
+                <i class="bi bi-chevron-right"></i>
+                <button type="button" class="btn">GADGETS</button>
+                <i class="bi bi-chevron-right"></i>
+                <button type="button" class="btn">SPORT GADGETS</button>
+            </div>
+
+            <!-- Side Bar -->
+
+            <div class="row row-cols-2">
+                <!-- col-xxl-9 col-lg-8 col-12 -->
+                <div id="sideBar" class="mt-4 col-3 d-none d-lg-block" style="width: 292px; height: 1550px;">
+                    <div id="popularCategories" class="d-flex flex-column">
+                        <h4>POPULAR CATEGORIES</h4>
+                        <div class="btn-group dropend mb-2">
+                            <button type="button" class="btn btn-secondary dropdown-toggle rounded-5 knop mt-2"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                LAPTOPS & COMPUTERS
+                            </button>
+                            <ul class="dropdown-menu rounded-5">
+                                <!-- Dropdown menu links -->
+                                <li><a class="dropdown-item rounded-5 knop" href="#">LAPTOPS & COMPUTERS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">VIDEO & PHOTO CAMERAS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">SMARTPHONES</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">TV & AUDIO</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">GADGETS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">CARELECTRONICS</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group dropend mb-2">
+                            <button type="button" class="btn btn-secondary dropdown-toggle rounded-5 knop"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                VIDEO & PHOTO CAMERAS
+                            </button>
+                            <ul class="dropdown-menu rounded-5">
+                                <!-- Dropdown menu links -->
+                                <li><a class="dropdown-item rounded-5 knop" href="#">LAPTOPS & COMPUTERS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">VIDEO & PHOTO CAMERAS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">SMARTPHONES</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">TV & AUDIO</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">GADGETS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">CARELECTRONICS</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group dropend mb-2">
+                            <button type="button" class="btn btn-secondary dropdown-toggle rounded-5 knop"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                SNARTPHONES
+                            </button>
+                            <ul class="dropdown-menu rounded-5">
+                                <!-- Dropdown menu links -->
+                                <li><a class="dropdown-item rounded-5 knop" href="#">LAPTOPS & COMPUTERS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">VIDEO & PHOTO CAMERAS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">SMARTPHONES</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">TV & AUDIO</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">GADGETS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">CARELECTRONICS</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group dropend mb-2">
+                            <button type="button" class="btn btn-secondary dropdown-toggle rounded-5 knop"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                TV & AUDIO
+                            </button>
+                            <ul class="dropdown-menu rounded-5">
+                                <!-- Dropdown menu links -->
+                                <li><a class="dropdown-item rounded-5 knop" href="#">LAPTOPS & COMPUTERS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">VIDEO & PHOTO CAMERAS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">SMARTPHONES</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">TV & AUDIO</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">GADGETS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">CARELECTRONICS</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group dropend mb-2">
+                            <button type="button" class="btn btn-secondary dropdown-toggle rounded-5 knop"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                GADGETS
+                            </button>
+                            <ul class="dropdown-menu rounded-5">
+                                <!-- Dropdown menu links -->
+                                <li><a class="dropdown-item rounded-5 knop" href="#">LAPTOPS & COMPUTERS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">VIDEO & PHOTO CAMERAS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">SMARTPHONES</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">TV & AUDIO</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">GADGETS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">CARELECTRONICS</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group dropend mb-2">
+                            <button type="button" class="btn btn-secondary dropdown-toggle rounded-5 knop"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                CARELECTRONICS
+                            </button>
+                            <ul class="dropdown-menu rounded-5">
+                                <!-- Dropdown menu links -->
+                                <li><a class="dropdown-item rounded-5 knop" href="#">LAPTOPS & COMPUTERS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">VIDEO & PHOTO CAMERAS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">SMARTPHONES</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">TV & AUDIO</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">GADGETS</a></li>
+                                <li><a class="dropdown-item rounded-5 knop" href="#">CARELECTRONICS</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-secondary mb-2 rounded-5 knop border-0">VIDEO GAMES &
+                            CONSOLES
+                        </button>
+                        <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">SOFTWARE</button>
+                        <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">OFFCI ACCESSORIES</button>
+                        <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">ACCESSORIES</button>
+                    </div>
+                    <div id="price" class="mt-5">
+                        <h4>PRICE</h4>
+                        <input type="range" class="form-range" id="customRange1">
+                        <label for="customRange1" class="form-label">Price:</label>
+                    </div>
+                    <div id="brands" class="mt-5">
+                        <h4>BRANDS</h4>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="lg">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                LG
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="samsung">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                SAMSUNG
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="apple">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                APPLE
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="htc">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                HTC
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="google">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                GOOGLE
+                            </label>
+                        </div>
+                    </div>
+                    <div id="colors" class="mt-5">
+                        <!-- mogelijk gemaakt door chatgpt achter een heletijd rond te zoeken hoe ik dit kon doen, heb ik maar de hulp ingeschakeld van gpt.-->
+                        <h4>Choose a color</h4>
+                        <div class="d-flex gap-2">
+                            <button class="color-btn" style="background-color: #A9F048;"
+                                    onclick="selectColor(this)"></button>
+                            <button class="color-btn" style="background-color: #62E5F3;"
+                                    onclick="selectColor(this)"></button>
+                            <button class="color-btn" style="background-color: #F4F4F4;"
+                                    onclick="selectColor(this)"></button>
+                            <button class="color-btn" style="background-color: #52A300;"
+                                    onclick="selectColor(this)"></button>
+                            <button class="color-btn" style="background-color: #FFC531;"
+                                    onclick="selectColor(this)"></button>
+                            <button class="color-btn" style="background-color: #9243B7;"
+                                    onclick="selectColor(this)"></button>
+                            <button class="color-btn" style="background-color: #457EE5;"
+                                    onclick="selectColor(this)"></button>
+                            <button class="color-btn" style="background-color: #CC5C47;"
+                                    onclick="selectColor(this)"></button>
+                        </div>
+                    </div>
+                    <div id="system" class="mt-5">
+                        <h4>OPERATION SYSTEM</h4>
+                        <div class="form-check mt-2">
+                            <input class="form-check-input" type="checkbox" value="" id="android">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                ANDROID
+                            </label>
+                        </div>
+                        <div class="form-check mt-1">
+                            <input class="form-check-input" type="checkbox" value="" id="ios">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                IOS
+                            </label>
+                        </div>
+                        <div class="form-check mt-1">
+                            <input class="form-check-input" type="checkbox" value="" id="windows">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                WINDOWS PHONE
+                            </label>
+                        </div>
+                        <div class="form-check mt-1">
+                            <input class="form-check-input" type="checkbox" value="" id="symbian">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                SYMBIAN
+                            </label>
+                        </div>
+                        <div class="form-check mt-1">
+                            <input class="form-check-input" type="checkbox" value="" id="blackberryOs">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                BLACKBERRY OS
+                            </label>
+                        </div>
+                    </div>
+                    <div id="popular_tags" class="mt-5">
+                        <h4>POPULAR TAGS</h4>
+                        <div class="d-flex mt-2">
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">HEADPHONES</button>
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">ACCESSORIES</button>
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">NEW</button>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">WIRELESS</button>
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">CABLES</button>
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">DEVICES</button>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">GADGETS</button>
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">BRANDS</button>
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">REPLACEMENTS</button>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">CASES</button>
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">CABLES</button>
+                            <button type="button" class="btn btn-secondary mb-2 rounded-5 knop">PROFESSIONAL</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pictures + items -->
+                <div class="col-xxl-9 col-lg-8 col-12 mt-4 justify-content-md-center d-flex">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/thumbnail-14.jpg" class="d-block w-100 rounded-5 img-fluid" alt="watch"
+                                     width="848" height="339">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/thumbnail-10.png" class="d-block w-100 rounded-5 img-fluid" alt="tvBox"
+                                     width="848" height="339">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>SPORT GADGETS</h4>
+                        <p>showing 15 of 2 358 results</p>
+                        <button type="button" class="btn btn-outline-success"><i class="bi bi-grid-3x3-gap-fill"></i></button>
+                        <button type="button" class="btn btn-outline-success"><i class="bi bi-list-task"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function selectColor(button) {
+            // Verwijder de "selected" class van alle knoppen
+            document.querySelectorAll('.color-btn').forEach(btn => btn.classList.remove('selected'));
+
+            // Voeg de "selected" class toe aan de geklikte knop
+            button.classList.add('selected');
+
+            // Optioneel: doe iets met de geselecteerde kleur
+            console.log(button.style.backgroundColor);
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

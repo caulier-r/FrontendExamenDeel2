@@ -1,0 +1,37 @@
+.nav {
+    height: 98px;
+}
+
+.active-btn {
+    color: white;
+    background-color: green;
+}
+
+.nav-btn {
+    color: black; /* Tekst zwart in normale toestand */
+    background-color: transparent; /* Geen achtergrond in normale toestand */
+    border: none; /* Geen rand in normale toestand */
+}
+
+.nav-btn:hover {
+    color: white !important; /* Tekst wit bij hover */
+    background-color: green !important; /* Achtergrond groen bij hover */
+    border: none !important; /* Rode rand bij hover */
+}
+
+.knop:hover {
+    color: black !important;
+    background-color: green !important;
+    border: none !important;
+}
+
+.color-btn {
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.color-btn.selected {
+    border: 4px solid;
+}
